@@ -1,9 +1,3 @@
-"""
-IF009 - Laboratorio de Programación y Lenguajes (UNTDF)
-TP 0: Git & GitHub Flow
-Script base para el Glosario Colaborativo
-"""
-
 
 def mostrar_bienvenida():
     print("=" * 40)
@@ -14,10 +8,6 @@ def mostrar_bienvenida():
 
 
 def glosario_inicial():
-    """
-    Diccionario con términos base.
-    Los alumnos deben agregar nuevas funciones para extender este glosario.
-    """
     terminos = {
         "HTML": "Lenguaje de marcado para la creación de páginas web.",
         "CSS": "Lenguaje de hojas de estilo para describir la presentación de un documento HTML.",
@@ -30,19 +20,12 @@ def glosario_inicial():
         print(f"-> {termino}: {definicion}")
 
 
-# --- TAREA PARA EL ALUMNO ---
-# Instrucciones:
-# 1. Crea una rama 'feature-tu-termino'
-# 2. Crea una función nueva siguiendo el ejemplo de abajo
-# 3. Llámala dentro del bloque 'if __name__ == "__main__":'
+
 
 
 def definicion_framework():
-    """
-    EJEMPLO: El alumno debe renombrar esta función y completar su término.
-    """
     termino = "Framework"  
-    definicion = "Es una plantilla para desarrollar softwares de manera más rápida y eficiente"
+    definicion = "Es una plantilla para desarrollar softwares de manera más rápida y eficiente."
     print(f"[NUEVO] {termino}: {definicion}")
 
 
@@ -51,5 +34,3 @@ if __name__ == "__main__":
     glosario_inicial()
     definicion_framework()
 
-    # El alumno debe agregar la llamada a su función aquí:
-    # agregar_definicion_alumno()
