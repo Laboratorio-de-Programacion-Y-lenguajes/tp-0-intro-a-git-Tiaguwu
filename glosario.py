@@ -37,18 +37,19 @@ def glosario_inicial():
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
 
-def agregar_definicion_alumno():
+def definicion_framework():
     """
     EJEMPLO: El alumno debe renombrar esta función y completar su término.
     """
-    termino = "ORM"  # Reemplazar con el término asignado o elegido
-    definicion = "Object-Relational Mapping. Técnica para convertir datos entre sistemas incompatibles usando OOP."
+    termino = "Framework"  
+    definicion = "Es una plantilla para desarrollar softwares de manera más rápida y eficiente"
     print(f"[NUEVO] {termino}: {definicion}")
 
 
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
+    definicion_framework()
 
     # El alumno debe agregar la llamada a su función aquí:
     # agregar_definicion_alumno()
